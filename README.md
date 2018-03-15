@@ -9,12 +9,13 @@ Follow the following steps to configure an EC2 machine using vagrant:
 
 1. Install vagrant-aws plugin.
 
-1
 $vagrant plugin install vagrant-aws
+
 2. Fetch a Vagrant box image
 Box images vary depending on the Vagrant “provider” that we use. Run the following command to download the dummy box which is provided by Vagrant-aws plugin:
 
 $vagrant box add dummy https://github.com/mitchellh/vagrant-aws/raw/master/dummy.box
+
 3.Configure Vagrant file
 Make a directory to hold your Vagrant machine metadata.
 
