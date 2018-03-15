@@ -57,6 +57,7 @@ end
 4. Launch the instance that is configured by the Vagrant file by running the following command:
 
 $vagrant up --provider=aws
+
 5. Login to the AWS EC2 instance:
 $vagrant ssh
 
